@@ -136,9 +136,9 @@ class AdminProduitController extends AbstractController
         */
         if($form->isSubmitted() AND $form->isValid())
         {
-            dump($produit);
+            // dump($produit);
             $produit->setCreatedAt(new \DateTimeImmutable('now'));
-            dump($produit);
+            // dump($produit);
 
 
 
